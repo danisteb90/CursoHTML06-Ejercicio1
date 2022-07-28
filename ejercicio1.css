@@ -1,0 +1,23 @@
+.container {
+    width: 120px;
+    height: 50px;
+    background-color: cadetblue;    
+    padding: 10px;
+    text-align: center;    
+}
+
+.btn1::before {
+    color: black;
+    content: "Pasa por encima";
+    font-size: small;
+}
+
+.btn1:hover::before {
+    color: white;
+    content: "¡Hecho!";    
+}
+
+.btn1:hover {    
+    background-color: darkgreen;
+}
+
